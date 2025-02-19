@@ -79,7 +79,7 @@ public class PlatformScript : MonoBehaviour {
     }
     IEnumerator Deactivate()
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(3f);
         gameObject.SetActive(false);
     }
 }
